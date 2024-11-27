@@ -20,9 +20,3 @@ jobs:
           git pull
           systemctl restart django_null.service
           systemctl reload nginx.service
-          
-git add .
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/xurshiddev555/AvtoElonUz.git
-git push -u origin main
